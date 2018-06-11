@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    rules: [{
+    loaders: [{
       exclude: /node_modules/,
       loader: 'babel',
       query: {
